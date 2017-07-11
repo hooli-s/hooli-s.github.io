@@ -1,5 +1,5 @@
 body  {
-  background-image: url("photo.jpg");
+  background-image: url("../images/photo.jpg");
   background-size: cover;
   background-position: center;
   font-family: Ubuntu;
@@ -33,7 +33,7 @@ hr  {
 .navbar-default  {
     background-color: #000000;
     border-color: #000000;
-    border-radius: 0px; 
+    border-radius: 0px;
 }
 
 .navbar-default .navbar-brand {

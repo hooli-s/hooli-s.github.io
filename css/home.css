@@ -1,0 +1,58 @@
+body  {
+  background-image: url("../images/photo.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Ubuntu;
+}
+
+html  {
+  height: 100%;
+}
+
+#content {
+  text-align: center;
+  padding-top: 25%;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.2),
+               0px 18px 23px rgba(0, 0, 0, 0.2)
+
+}
+
+h1  {
+  color: white;
+  font-weight: 700;
+  font-size: 5em;
+}
+
+
+hr  {
+  width: 700px;
+  border: 1px solid #E0E0E0;
+}
+
+.navbar-default  {
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+
+}
+
+a:hover  {
+    color: #ADADAD !important;
+}
+
+a:visited {
+    color: #FFFFFF !important;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding-top: 3px;
+}
