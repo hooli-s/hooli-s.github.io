@@ -2,6 +2,10 @@ body    {
     font-family: Ubuntu
 }
 
+html  {
+  height: 100%;
+}
+
 .navbar-default  {
     background-color: #000000;
     border-color: #000000;
