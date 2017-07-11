@@ -1,0 +1,29 @@
+body    {
+    font-family: Ubuntu
+}
+
+.navbar-default  {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+
+}
+
+a:hover  {
+    color: #ADADAD !important;
+}
+
+a:visited {
+    color: #FFFFFF !important;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding-top: 3px;
+}
