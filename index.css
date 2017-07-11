@@ -36,7 +36,7 @@ hr  {
 }
 
 .navbar-default .navbar-brand {
-    color: white;
+    color: white;   
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -46,4 +46,8 @@ hr  {
 
 a:hover  {
     color: #ADADAD !important;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding-top: 3px;
 }
