@@ -9,6 +9,7 @@ html  {
 .navbar-default  {
     background-color: #000000;
     border-color: #000000;
+    border-radius: 0px;
 }
 
 .navbar-default .navbar-brand {
