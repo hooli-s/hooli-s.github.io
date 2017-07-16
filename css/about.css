@@ -2,6 +2,8 @@ body    {
     font-family: Ubuntu
 }
 
+background-repeat:no-repeat;
+
 .navbar-default  {
     background-color: #000000;
     border-color: #000000;
@@ -29,15 +31,25 @@ a:visited {
     padding-top: 3px;
 }
 
-#container  {
-    text-align: center;
-    background: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: 10%;
-    margin-left: 10%;
+
+#mainContainer {
+    margin-top: 7%;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.8);
+    width: 35%;
 }
 
+p   {
+    font-size: 17px;
+    color: black;
+
+
+}
+
+
 h1  {
-    color: blue;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 700;
 }
