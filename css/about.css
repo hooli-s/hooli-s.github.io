@@ -32,7 +32,70 @@ a:visited {
 }
 
 
-#mainContainer {
+
+body {
+  background: url('../images/photo.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.blur {
+  background: url('../images/photo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  filter: blur(10px);
+  position: absolute;
+  height: 700px;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: -50px;
+}
+
+.widget {
+  border-top: 2px solid rgba(255, 255, 255, .5);
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  border-right: 2px solid rgba(255, 255, 255, .5);
+  border-left: 2px solid rgba(255, 255, 255, .5);
+  height: 550px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.text {
+  width: 340px;
+  margin-bottom: 60%;
+  text-align: center;
+}
+
+hr {
+    width: 250px;
+    padding-bottom: 15px;
+}
+
+.text p {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.text h1 {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+
+
+
+/*#mainContainer {
     margin-top: 7%;
     background-color: #fff;
     background-color: rgba(255,255,255,0.8);
@@ -52,4 +115,4 @@ h1  {
     text-align: center;
     padding-bottom: 10px;
     font-weight: 700;
-}
+}*/
