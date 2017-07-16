@@ -28,3 +28,16 @@ a:visited {
 #bs-example-navbar-collapse-1 {
     padding-top: 3px;
 }
+
+#container  {
+    text-align: center;
+    background: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h1  {
+    color: blue;
+}
